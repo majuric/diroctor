@@ -1,0 +1,15 @@
+{
+  "name": "diroctor",
+  "version": "0.1.0",
+  "description": "Git directory structure saver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directory-tree": "^2.1.0",
+    "simple-git": "^1.105.0"
+  }
+}
