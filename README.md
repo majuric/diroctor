@@ -1,7 +1,7 @@
-- Save a directory tree of all git repositories in a root directory to a config file ( .diroctor.yml )
-- Have a daemon that will check for changes in the root folder and subfolders and re-create the tree
-- Re install all of the repositories in a separate place
-- Store a version with which the config file was created to ensure people use compatible version of the library
-- Keep the name of the folder in case it differs from the repository name
+- ~~Save a directory tree of all git repositories in a root directory to a config file ( .diroctor.yml )~~
+- ~~Re install all of the repositories in a separate place~~
 - Ask for prompt when the recovery folder exists and is not empty to delete the contents of the folder
+- Store a version with which the config file was created to ensure people use compatible version of the library
 - Add posibility to override default config values with cli input
+- Extract all filesystem path methods to a separate file for easier testing
+- Have a daemon that will check for changes in the root folder and subfolders and re-create the tree
