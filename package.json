@@ -1,13 +1,17 @@
 {
   "name": "diroctor",
   "version": "0.1.0",
-  "description": "Git directory structure saver",
+  "description": "Your source code guardian angel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Mario Juric",
+    "email": "mario.jur@gmail.com"
+  },
+  "bin": "./index.js",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.19.0",
     "directory-tree": "^2.1.0",
