@@ -4,9 +4,10 @@ const program = require("commander");
 const dirTree = require("./lib/directoryTree");
 const restore = require("./lib/restore");
 const config = require("./lib/config");
+const pjson = require("./package.json");
 
 program
-  .version("0.1.0", "-v, --version") // TODO - read version from package.json
+  .version(pjson.version, "-v, --version") // TODO - read version from package.json
   .option("-f, --force", "Delete the contents of a restore directory if the directory is not empty") // TODO - still not implemented
   .option("-r, --restore", "Re-install repository directory tree. To specify a path use -s <path>")
   .option("-d, --diroctor-lock <path>]", "Location of the diroctor.lock file relative to the HOME directory")
