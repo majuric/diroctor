@@ -10,7 +10,7 @@ program
   .version(pjson.version, "-v, --version") // TODO - read version from package.json
   .option("-f, --force", "Delete the contents of a restore directory if the directory is not empty") // TODO - still not implemented
   .option("-r, --restore", "Re-install repository directory tree. To specify a path use -s <path>")
-  .option("-d, --diroctor-lock <path>]", "Location of the diroctor.lock file relative to the HOME directory")
+  .option("-d, --diroctor-lock <path>", "Location of the diroctor.lock file relative to the HOME directory")
   .option("-s, --source <path>", "Path to the root of git repositories relative to the HOME directory")
   .parse(process.argv);
 
