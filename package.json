@@ -1,6 +1,6 @@
 {
   "name": "diroctor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your source code guardian angel",
   "main": "index.js",
   "scripts": {
