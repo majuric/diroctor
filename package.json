@@ -11,6 +11,10 @@
     "email": "mario.jur@gmail.com"
   },
   "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/majuric/diroctor.git"
+  },
   "license": "MIT",
   "dependencies": {
     "commander": "^2.19.0",
