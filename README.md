@@ -29,13 +29,14 @@ Running `diroctor -r` or `diroctor --restore` will read the `.diroctor.lock` fil
 ## CLI options
 
 Options:
-|Option|Details|
-|--|--|
-|-v, --version|output the version number|
-|-r, --restore| Re-install repository directory tree. To specify a path use -s <path>|
-|-d, --diroctor-lock <path>|Location of the diroctor.lock file relative to the HOME directory|
-|-s, --source <path>|Path to the root of git repositories relative to the HOME directory|
-| -h, --help|output usage information|
+
+| Option                     | Details                                                               |
+| -------------------------- | --------------------------------------------------------------------- |
+| -v, --version              | output the version number                                             |
+| -r, --restore              | Re-install repository directory tree. To specify a path use -s <path> |
+| -d, --diroctor-lock <path> | Location of the diroctor.lock file relative to the HOME directory     |
+| -s, --source <path>        | Path to the root of git repositories relative to the HOME directory   |
+| -h, --help                 | output usage information                                              |
 
 ## Override defaults
 
